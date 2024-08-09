@@ -1,3 +1,4 @@
+{
 "name": "BotCircuits"
 "logo": {
   "light": "/logo/light.svg",
@@ -9,4 +10,5 @@
   "primary": "#2AB673",
   "light": "#55D799",
   "dark": "#117866",
-},
+}
+}
