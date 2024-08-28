@@ -1,0 +1,31 @@
+<svg width="370" height="366" viewBox="0 0 370 366" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="v3">
+<circle id="core-circle" cx="186" cy="183" r="42" stroke="#6365F1" stroke-width="20"/>
+<g id="branch">
+<circle id="Ellipse 9" cx="242.5" cy="25" r="25" fill="#6365F1"/>
+<path id="Line 14" d="M186 131V64L227.5 36" stroke="#6365F1" stroke-width="20"/>
+</g>
+<g id="branch_2">
+<circle id="Ellipse 9_2" cx="344" cy="242" r="25" transform="rotate(90 344 242)" fill="#6365F1"/>
+<path id="Line 14_2" d="M238 183L305 183L333 224.5" stroke="#6365F1" stroke-width="20"/>
+</g>
+<g id="branch_3">
+<circle id="Ellipse 9_3" cx="333.673" cy="124.397" r="25" transform="rotate(45 333.673 124.397)" fill="#6365F1"/>
+<path id="Line 14_3" d="M217 157.631L264.376 110.255L313.52 119.801" stroke="#6365F1" stroke-width="20"/>
+</g>
+<g id="branch_4">
+<circle id="Ellipse 9_4" cx="127" cy="341" r="25" transform="rotate(-180 127 341)" fill="#6365F1"/>
+<path id="Line 14_4" d="M186 235L186 302L144.5 330" stroke="#6365F1" stroke-width="20"/>
+</g>
+<g id="branch_5">
+<circle id="Ellipse 9_5" cx="35.3553" cy="250.631" r="25" transform="rotate(-135 35.3553 250.631)" fill="#6365F1"/>
+<path id="Line 14_5" d="M152.028 217.397L104.652 264.773L55.5079 255.227" stroke="#6365F1" stroke-width="20"/>
+</g>
+<g id="branch_6">
+<circle id="Ellipse 9_6" cx="28" cy="124" r="25" transform="rotate(-90 28 124)" fill="#6365F1"/>
+<path id="Line 14_6" d="M134 183L67 183L39 141.5" stroke="#6365F1" stroke-width="20"/>
+</g>
+<path id="Polygon 1" d="M110.804 144.546L97.3553 94.3553L147.546 107.804L110.804 144.546Z" stroke="#6365F1" stroke-width="10"/>
+<path id="Polygon 2" d="M260.333 221.591L273.782 271.782L223.591 258.333L260.333 221.591Z" stroke="#6365F1" stroke-width="10"/>
+</g>
+</svg>
