@@ -1,79 +1,88 @@
 ---
 title: Journey Components
 description: Journey components are building blocks that enable you to design and configure conversational AI agents. These components are categorized into different menus based on their functionality, helping you create dynamic and interactive user journeys with ease.
+---
+
+<Callout icon="🔧">
+  Journey components are building blocks that enable you to design and configure conversational AI agents. These components are categorized into different menus based on their functionality, helping you create dynamic and interactive user journeys with ease.
+</Callout>
 
 ---
 
-# Journey Components
+## Menu Categories
 
-### Menu Categories:
-- **Capture**
-- **Respond**
-- **Execute**
-- **Dev**
-- **Logic**
-- **Variables**
-
----
+- [**Capture**](#capture)
+- [**Respond**](#respond)
+- [**Execute**](#execute)
+- [**Dev**](#dev)
+- [**Logic**](#logic)
+- [**Variables**](#variables)
 
 ## Capture
 
-**Capture** components are actions that allow you to collect information from users. These are essential for gathering inputs and guiding the conversation flow.
+<Expandable title="Capture Components">
+  **Capture** components are actions that allow you to collect information from users. These are essential for gathering inputs and guiding the conversation flow.
 
-- **Question**: Capture responses to custom questions and assign them to slots for further processing.
-- **Buttons**: Use buttons to capture intent through a button click. You can set a slot value, open a URL, or navigate to a specific step in the workflow.
-- **Cards**: Display information through cards and capture user intent. Cards can provide a more visual and interactive way to present options.
-- **Codehook**: Execute custom code to generate a prompt for the user. The user's response is stored in the designated slot, with the selection assigned to a chosen variable.
+  - **Question**: Capture responses to custom questions and assign them to slots for further processing.
+  - **Buttons**: Use buttons to capture intent through a button click. You can set a slot value, open a URL, or navigate to a specific step in the workflow.
+  - **Cards**: Display information through cards and capture user intent. Cards can provide a more visual and interactive way to present options.
+  - **Codehook**: Execute custom code to generate a prompt for the user. The user's response is stored in the designated slot, with the selection assigned to a chosen variable.
+</Expandable>
 
----
 
 ## Respond
 
-**Respond** components are actions that allow you to send messages or media to users, enriching the conversational experience.
+<Expandable title="Respond Components">
+  **Respond** components are actions that allow you to send messages or media to users, enriching the conversational experience.
 
-- **Text**: Respond with text-based messages to communicate with users.
-- **Image**: Use images or GIFs to enhance the user experience and provide a more engaging interaction.
+  - **Text**: Respond with text-based messages to communicate with users.
+  - **Image**: Use images or GIFs to enhance the user experience and provide a more engaging interaction.
+</Expandable>
 
----
 
 ## Execute
 
-**Execute** components are no-code actions that enable backend processing without requiring any coding knowledge. These are perfect for performing operations based on user input or triggering workflows.
+<Expandable title="Execute Components">
+  **Execute** components are no-code actions that enable backend processing without requiring any coding knowledge. These are perfect for performing operations based on user input or triggering workflows.
 
-- **AI Task**: Perform prompt-based backend processing using information stored in slots. For example, after collecting a date, you can convert it into a specific format for backend storage.
-- **Workflow**: Trigger a predefined workflow to automate tasks or processes in response to user actions.
-- **Document Search**: Search within specific documents to reference information or provide contextually relevant responses.
-- **Live Agent Transfer**: Seamlessly transfer the conversation to a live agent when necessary.
-- **Pause**: Pause the conversation, for example, to wait for a response from an external platform before continuing with the next steps.
-- **AI Knowledge**: Direct the system to search within specific knowledge bases when answering questions. Note that you can't create a new knowledge base within the canvas but can select from existing ones.
+  - **AI Task**: Perform prompt-based backend processing using information stored in slots. For example, after collecting a date, you can convert it into a specific format for backend storage.
+  - **Workflow**: Trigger a predefined workflow to automate tasks or processes in response to user actions.
+  - **Document Search**: Search within specific documents to reference information or provide contextually relevant responses.
+  - **Live Agent Transfer**: Seamlessly transfer the conversation to a live agent when necessary.
+  - **Pause**: Pause the conversation, for example, to wait for a response from an external platform before continuing with the next steps.
+  - **AI Knowledge**: Direct the system to search within specific knowledge bases when answering questions. Note that you can't create a new knowledge base within the canvas but can select from existing ones.
+</Expandable>
 
----
+
 
 ## Dev
 
-**Dev** components allow you to integrate with third-party systems, run custom code, and connect your AI assistant to external services.
+<Expandable title="Dev Components">
+  **Dev** components allow you to integrate with third-party systems, run custom code, and connect your AI agent to external services.
 
-- **API Call**: Make an API call to your own system or any third-party service for advanced integration.
-- **Call a Function**: Execute a custom function. While new functions can't be created within the canvas, you can select and call existing functions from your backend.
-- **Authenticate or Connect**: Authenticate users or connect to external systems as part of the conversational flow.
-- **3rd Party System Actions**: Perform actions within third-party systems. For example, integrate with Shopify to automate order creation. ( Coming soon )
-
----
+  - **API Call**: Make an API call to your own system or any third-party service for advanced integration.
+  - **Call a Function**: Execute a custom function. While new functions can't be created within the canvas, you can select and call existing functions from your backend.
+  - **Authenticate or Connect**: Authenticate users or connect to external systems as part of the conversational flow.
+  - **3rd Party System Actions**: Perform actions within third-party systems. For example, integrate with Shopify to automate order creation. (Coming soon)
+</Expandable>
 
 ## Logic
 
-**Logic** components help you design conditional or logical flows within your user journeys. This allows for branching conversations based on different conditions or user states.
+<Expandable title="Logic Components">
+  **Logic** components help you design conditional or logical flows within your user journeys. This allows for branching conversations based on different conditions or user states.
 
-- **Condition**: Implement if-else logic based on the presence or absence of data. This is useful for creating separate flows for different user scenarios, such as guest vs. authenticated users.
+  - **Condition**: Implement if-else logic based on the presence or absence of data. This is useful for creating separate flows for different user scenarios, such as guest vs. authenticated users.
+</Expandable>
 
----
+
 
 ## Variables
 
-**Variables** in BotCircuits are used to define and store different user entities throughout the conversation. These variables capture specific data points from user interactions, such as names, dates, or preferences, and allow you to reference this information later in the conversation or pass it to other systems for processing. By utilizing variables, you can create more dynamic and personalized user journeys.
-
+<Expandable title="Variables">
+  **Variables** in BotCircuits are used to define and store different user entities throughout the conversation. These variables capture specific data points from user interactions, such as names, dates, or preferences, and allow you to reference this information later in the conversation or pass it to other systems for processing. By utilizing variables, you can create more dynamic and personalized user journeys.
+</Expandable>
 ---
-
-These components collectively empower you to create sophisticated conversational AI agents that can handle complex tasks, integrate with various systems, and provide a seamless user experience.
-
-Happy building with BotCircuits!
+<Tip>
+  These components collectively empower you to create sophisticated conversational AI agents that can handle complex tasks, integrate with various systems, and provide a seamless user experience.
+  Happy building with BotCircuits!
+</Tip>

@@ -1,102 +1,112 @@
 ---
 title: Quickstart Guide
-description: Step-by-step guide to building your first AI assistant with BotCircuits and integrate to the website.
----
----
-
-# Building Your First AI Assistant
-
-Welcome to the **BotCircuits Quickstart Guide**! In this guide, we'll walk you through the steps to create your first AI-powered assistant from scratch. Whether you're building a text-based or voice-based agent, this guide will help you set everything up quickly and efficiently.
-
-> **Note:** Voice-based AI agents are available only on the **Growth Plan** or higher. If you're building a voice assistant, make sure you're on the appropriate plan to access this feature.
-
+description: Step-by-step guide to building your first AI agent with BotCircuits and integrating it into your website.
 ---
 
-## Step 1: Sign In and Create a New Assistant
+## Building Your First AI agent
 
+Welcome to the **BotCircuits Quickstart Guide**! In this guide, we'll walk you through the steps to create your first AI-powered agent from scratch. Whether you're building a text-based or voice-based agent, this guide will help you set everything up quickly and efficiently.
+
+> **Note:** Voice-based AI agents are available only on the **Growth Plan** or higher. If you're building a voice agent, make sure you're on the appropriate plan to access this feature.
+
+---
+
+## 9 simple steps to build your first AI agent
+
+<Step stepNumber="1">
+
+<Accordion title="Creating a New Agent">
 After signing in to the BotCircuits platform, you'll land on the [Home Page](https://platform.botcircuits.com/agents). To begin, click the **New Assistant** button.
+</Accordion>
+</Step>
 
----
+<Step stepNumber="2">
 
-## Step 2: Name and Describe Your Assistant
+<Accordion title="Naming and Describing Your Agent">
+You'll be prompted to provide a **Name** and **Description** for your new agent. This is for your internal use only, helping you identify the agent within your dashboard.
 
-You'll be prompted to provide a **Name** and **Description** for your new assistant. This is for your internal use only, helping you identify the assistant within your dashboard.
-
-- **Name**: Choose a name that reflects the assistant's purpose (e.g., "SupportBot" or "ReservationAssistant").
-- **Description**: Add a brief description to remind yourself of the assistant's function.
+- **Name**: Choose a name that reflects the agent's purpose (e.g., "AI Support" or "AI Reservation Agent").
+- **Description**: Add a brief description to remind yourself of the agent's function.
 
 This information is not used by the AI and is purely for organizational purposes.
+</Accordion>
+</Step>
 
----
+<Step stepNumber="3">
 
-## Step 3: Design the User Journey
+<Accordion title="Designing the User Journey">
 
-Once you've created your assistant, you'll be redirected to the **Journey Editor**. The journey represents the series of steps required to achieve a desired outcome. For example, a "Reserve a Table" journey might involve asking questions, checking availability via API calls, and confirming the reservation.
+Once you've created your agent, you'll be redirected to the **Journey Editor**. The journey represents the series of steps required to achieve a desired outcome. For example, a "Reserve a Table" journey might involve asking questions, checking availability via API calls, and confirming the reservation.
 
 By default, you will start with a **Default Journey**, which includes a basic welcome message. From here, you can add another journey by clicking the **+** button.
 
 - **Journey Title**: Provide a descriptive title that captures the essence of the journey (e.g., "Reservation Process").
-- **AI Description**: This is crucial for BotCircuits AI engine to understand and invoke the correct journey based on user queries. Be specific and clear about the journey's purpose.
+- **AI Description**: This is crucial for BotCircuits' AI engine to understand and invoke the correct journey based on user queries. Be specific and clear about the journey's purpose.
+</Accordion>
+</Step>
 
----
+<Step stepNumber="4">
 
-## Step 4: Customize the Journey Steps
+<Accordion title="Customizing the Journey Steps">
+In the **Canvas Editor**, you can drag and drop components to build out the steps of your journey. This visual editor makes it easy to map out the flow of your agent's interactions.
 
-In the **Canvas Editor**, you can drag and drop components to build out the steps of your journey. This visual editor makes it easy to map out the flow of your assistant's interactions.
-
-- **Components**: Add interactions like API calls, question prompts, card components and more.
+- **Components**: Add interactions like API calls, question prompts, card components, and more.
 - For detailed information on each component, refer to [Component Documentation](/journey-components).
+</Accordion>
+</Step>
 
----
+<Step stepNumber="5">
 
-## Step 5: Customizing the AI agent's Behavior
+<Accordion title="Customizing the AI Agent's Behavior">
+To further refine how your agent behaves, you can provide a system-level prompt. Navigate to **Content > Instructions** to add a **System Prompt**. This prompt will guide the agent's behavior throughout conversations.
 
-To further refine how your agent behaves, you can provide system-level prompt. Navigate to **Content > Instructions** to add a **System Prompt**. This prompt will guide the assistant's behavior throughout conversations.
+> **Tip:** You can also create AI agents driven purely by system prompts, offering more control over their responses.
+</Accordion>
+</Step>
 
-> **Tip:** You can also create AI agents driven purely by system prompt, offering more control over their responses.
+<Step stepNumber="6">
+<Accordion title="Integrating Knowledge Bases">
 
----
-
-## Step 6: Integrate Knowledge Bases
-
-Enhance your agent's capabilities by integrating knowledge bases. Go to **Content > Knowledge Base** and upload documents such as PDFs, CSVs, or DOCX files. This allows your assistant to reference specific information from these documents during conversations.
+Enhance your agent's capabilities by integrating knowledge bases. Go to **Content > Knowledge Base** and upload documents such as PDFs, CSVs, or DOCX files. This allows your agent to reference specific information from these documents during conversations.
 
 - **Supported Formats**: PDF, CSV, DOCX
 - **Use Case Example**: Upload product manuals or FAQ documents to provide contextual answers to customer queries.
+</Accordion>
+</Step>
 
----
+<Step stepNumber="7">
 
-## Step 7: Customize Web Chat Appearance and Preview
+<Accordion title="Customizing Web Chat Appearance">
+Now it's time to customize your agent's appearance and preview it in action. Click on **Channels** in the side navigation bar, then select **Web Chat**. Here, you can adjust the appearance of your chat widget to match your branding.
 
-Now it's time to customize your assistant's appearance and preview it in action. Click on **Channels** in the side navigation bar, then select **Web Chat**. Here, you can adjust the appearance of your chat widget to match your branding.
+- **Preview**: View how your agent will appear on your website and interact with users.
+</Accordion>
+</Step>
 
-- **Preview**: View how your assistant will appear on your website and interact with users.
+<Step stepNumber="8">
+<Accordion title="Publishing Your Changes">
+Once you’ve completed building and configuring your AI agent, it’s time to publish your changes. In the top-right corner of the platform, you'll see the **Publish** button. Clicking this will deploy your updates to the production environment, making them live for your users.
 
----
+- **Tip:** Ensure you thoroughly test your agent before publishing to avoid any issues in the live environment.
+</Accordion>
+</Step>
 
-## Step 8: Publish Your Changes
+<Step stepNumber="9">
 
-Once you’ve completed building and configuring your AI assistant, it’s time to publish your changes. In the top-right corner of the platform, you'll see the **Publish** button. Clicking this will deploy your updates to the production environment, making them live for your users.
+<Accordion title="Embedding the Chat Widget">
+After publishing, it's time to integrate the agent into your website. Navigate to the **Web Chat** page, where you’ll find the code snippet needed to embed the chat widget.
 
-- **Tip:** Ensure you thoroughly test your assistant before publishing to avoid any issues in the live environment.
-
----
-
-## Step 9: Embed the Chat Widget on Your Website
-
-After publishing, it's time to integrate the assistant into your website. Navigate to the **Web Chat** page, where you’ll find the code snippet needed to embed the chat widget.
-
-- **Instructions**: Copy and paste the provided code snippet into your web application’s HTML. This will enable the BotCircuits chat widget on your site, allowing users to interact with your AI assistant.
+- **Instructions**: Copy and paste the provided code snippet into your web application’s HTML. This will enable the BotCircuits chat widget on your site, allowing users to interact with your AI agent.
 - **Further Customization**: For detailed information on publishing to other channels or customizing the chat experience, refer to our [Channels Documentation](/channels).
+</Accordion>
+</Step>
 
-
+---
 
 ## Next Steps
 
-Congratulations! You've successfully built your first AI assistant with BotCircuits. From here, you can continue refining your assistant by adding more journeys, customizing interactions, and scaling up your capabilities with additional features.
+Congratulations! You've successfully built your first AI agent with BotCircuits. From here, you can continue refining your agent by adding more journeys, customizing interactions, and scaling up your capabilities with additional features.
 
----
-
-If you have any questions or need support, feel free to reach out to us at [hello@botcircuits.com](mailto:hellp@botcircuits.com). We're here to help!
+If you have any questions or need support, feel free to reach out to us at [hello@botcircuits.com](mailto:hello@botcircuits.com). We're here to help!
 
 Happy building with BotCircuits!
