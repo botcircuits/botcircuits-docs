@@ -1,14 +1,46 @@
 {
 	"name": "BotCircuits",
+	"description": "Official documentation for BotCircuits, helping SMBs build voice and text-based AI agents.",
 	"logo": {
-		"light": "/logo/light.svg",
-		"dark": "/logo/dark.svg",
-		"href": "https://www.botcircuits.com"
+	  "light": "/logo/main-color.png",
+	  "dark": "/logo/main-white.png",
+	  "href": "https://www.botcircuits.com"
 	},
-	"favicon": "/favicon.svg",
+	"favicon": "/main-color.svg",
 	"colors": {
-		"primary": "#2AB673",
-		"light": "#55D799",
-		"dark": "#117866"
-	}
-}
+	  "primary": "#4F46E5",
+	  "light": "#4F46E5",
+	  "dark": "#4F46E5"
+	},
+	"topbarLinks": [
+	  {
+		"name": "Support",
+		"url": "mailto:hellp@botcircuits.com"  
+	  }
+	],
+	"topbarCtaButton": {
+	  "name": "Dashboard",
+	  "url": "https://platform.botcircuits.com" 
+	},
+	"navigation": [
+	  {
+		"group": "Welcome",
+		"pages": [
+		  "overview"
+		]
+	  },
+	  {
+		"group": "Getting started",
+		"pages": [
+		  "quickstart"
+		]
+	  },
+	  {
+		"group": "Journey Designer ( Canvas Editor )",
+		"pages": [
+		  "journey-components"
+		]
+	  }
+	]
+  }
+  
