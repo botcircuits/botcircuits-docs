@@ -36,7 +36,7 @@
 		]
 	  },
 	  {
-		"group": "Journey Designer ( Canvas Editor )",
+		"group": "Conversation Flow Designer",
 		"pages": [
 		  "journey-components"
 		]
